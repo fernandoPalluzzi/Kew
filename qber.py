@@ -10,11 +10,17 @@ from sqlite3 import *
 
 bindingsDefault = {'-collision': None, '-t': False, '-restore': False, '-self': False}
 
-storeDefault = {'-n': None, '-t': 'auto', '-b': False, '-c': False, '-C': False, '-rm': False, '-hidden': False, '-v': False}
+storeDefault = {'-n': None, '-t': 'auto', '-b': False, '-c': False, '-C': False,
+		'-rm': False, '-hidden': False, '-v': False}
 
-queryDefault = {'-a': 'all', '-t': None, '-s': None, '-c': None, '-i': None, '-e': False, '-ord': None, '-time': False, '-f': False, '-b': False, '-k': '0', '-hdr': None, '-o': None, '-bed': None, '-g': '1', '-markdup': False, '-v': False}
+queryDefault = {'-a': 'all', '-t': None, '-s': None, '-c': None, '-i': None, '-e': False,
+		'-ord': None, '-time': False, '-f': False, '-b': False, '-k': '0',
+		'-hdr': None, '-o': None, '-bed': None, '-g': '1', '-markdup': False,
+		'-v': False}
 
-collideDefault = {'-d': None, '-t1': None, '-t2': None, '-s': 'all', '-j': 'inner', '-a1': None, '-a2': None, '-c': None, '-ord': None, '-rm': False, '-w': None, '-time': False, '-o': None, '-a': None, '-v': False}
+collideDefault = {'-d': None, '-t1': None, '-t2': None, '-s': 'all', '-j': 'inner',
+		  '-a1': None, '-a2': None, '-c': None, '-ord': None, '-rm': False,
+		  '-w': None, '-time': False, '-o': None, '-a': None, '-v': False}
 
 
 def checkBindings(src):
