@@ -206,7 +206,7 @@ kew.py rmdup <input.idb> -t <table> -s <groupby> [options]
 ### Difference between tables
 Function: `difference`
 
-Find all values for the selected <attributes> from <table1> and <table2> for which <field1> (from <table1>) has no values in common with <field2> (from <table2>).
+Find all values for the selected attributes from table1 and table2 for which field1 (from table1) has no values in common with field2 (from table2).
 
 ```
 kew.py difference <input.idb> -t1 <table1> -t2 <table2> -w <field1, field2> -a <attributes> [-v]
