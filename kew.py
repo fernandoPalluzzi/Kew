@@ -11,8 +11,26 @@ from qber import *
 
 if len(sys.argv) == 1 or sys.argv[1] == "version":
 	call('clear', shell = True)
-	print('\n\n##### The Kew Toolkit v0.1.1b - (c) 2021 Fernando Palluzzi #####')
-	print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
+	print('\n  ##### The Kew Toolkit v0.1.1b    (c) 2021 Fernando Palluzzi #####\n')
+	print('  ## Use "kew.py <FUNCTION> -h" for help ##\n')
+	print('  o~~~~~~~~~~~~~o~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~o')
+	print('  | Function    |  Description                                    |\n' +
+	      '  o-------------o-------------------------------------------------o\n' +
+	      '  | store       |  Create an SQLite index                         |\n' +
+	      '  | bindings    |  Manual input file check                        |\n' +
+	      '  | fetch       |  Fetch data in a text file                      |\n' +
+	      '  | join        |  Join between tables of a database              |\n' +
+	      '  | collide     |  Join between text files                        |\n' +
+	      '  | rmdup       |  Remove duplicates from a database or text file |\n' +
+	      '  | difference  |  Difference between tables                      |')
+	print('  o~~~~~~~~~~~~~o~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~o\n')
+
+elif sys.argv[2] == "-h":
+	call('clear', shell = True)
+	print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+	call('cat ~/Kew/manuals/' + sys.argv[1] + '.txt', shell = True)
+	print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+
 
 elif sys.argv[1] == "store":
 	Op = readOp(sys.argv, storeDefault)
