@@ -1,5 +1,5 @@
 # Kew
-**Kew** is a simple command line tool for SQLite indexes creation and querying.
+**Kew** is a simple command line tool for [**SQLite**](https://sqlite.org) indexes creation and querying.
 
 ## Installation
 
