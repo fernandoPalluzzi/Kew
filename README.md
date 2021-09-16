@@ -189,17 +189,17 @@ kew.py rmdup <input.idb> -t <table> -s <groupby> [options]
 #             -k "xFIELD,FIELD[OPT] x..."
 #           where FIELD is a column number, and OPT sort by an option, following
 #           Bash sort function:
-#                                b    ignore leading blanks
-#                                d    consider only blanks and alphanumeric characters
-#                                f    ignore case
-#                                g    general numeric sort
-#                                i    ignore non-printable characters
-#                                M    month sort
-#                                h    human-readable sort (e.g. 2K, 1G)
-#                                n    numbers are considered numeric strings
-#                                R    random sort
-#                                r    reverse order
-#                                V    natural sort of version numbers within text
+#                                b  ignore leading blanks
+#                                d  consider only blanks and alphanumeric characters
+#                                f  ignore case
+#                                g  general numeric sort
+#                                i  ignore non-printable characters
+#                                M  month sort
+#                                h  human-readable sort (e.g. 2K, 1G)
+#                                n  numbers are considered numeric strings
+#                                R  random sort
+#                                r  reverse order
+#                                V  natural sort of version numbers within text
 # -ord      Comma + space-separated table attributes to order by (-ord "attr1, attr2, ..., attrN").
 #           This will sort data according to the specified attributes, in ascending order.
 #           For descending order, write DESC after the parameter argument
