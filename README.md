@@ -13,7 +13,7 @@ export PYTHONPATH=$PYTHONPATH:~/Kew
 Be sure to have execution rights for the Kew directory. If not, you may change them with:
 
 ```
-chmod 700 ~/Kew
+chmod 700 ~/Kew/*
 ```
 
 Open a terminal and launch `kew.py` to view the current version.
