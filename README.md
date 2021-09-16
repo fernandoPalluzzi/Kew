@@ -20,7 +20,9 @@ Open a terminal and launch `kew.py` to view the current version.
 
 ## Quick guide
 
-Use `kew.py <FUNCTION> -h` to get help. The list of available functions (see below) can be displayed simply with `kew.py`.
+Use `kew.py <FUNCTION> -h` to get help.
+
+The list of available functions (see below) can be displayed simply with `kew.py`.
 
 ### Create an SQLite index
 Function: `store`
