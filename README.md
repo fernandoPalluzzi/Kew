@@ -147,7 +147,7 @@ kew.py collide -t1 <table_1> -t2 <table_2> [-a1] [-a2] [-a] [-s <attributes>] [o
 Function: `rmdup`
 
 ```
-# USAGE WITH A TXT FILE
+# USAGE WITH A TEXT FILE
 kew.py rmdup <input_file> < -b | -f > -s <groupby> [options]
 
 # USAGE WITH AN SQLite INDEX
