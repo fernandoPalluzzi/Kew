@@ -76,7 +76,7 @@ kew.py fetch <input_idb> -t <table> [-s <attributes>] [-c <condition>] [-i <ID_a
 # -t     Database table to be queried.
 # -s     Comma + space-separated table attributes to be returned (-s "attr1, attr2, ..., attrN").
 # -c     Condition on tuples (-c "...").
-# -i     An attribute:ID_list string (table_attribute:ID_list_file).
+# -i     An attribute:ID_list string (attribute:ID_list_file).
 #        The ID list should be given as a text file with only one ID per line.
 #        If ID_list_file is a directory, a recursive query will be performed.
 #        Every output file of the recursive query will have .map extension.
