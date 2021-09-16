@@ -19,7 +19,8 @@ chmod 700 ~/Kew
 ## Quickstart
 
 ### Create an SQLite index
-Stores tab-separated (or blank-separated) txt files into an SQLite database.
+Function: `store`
+Store tab-separated (or blank-separated) txt files into an SQLite database.
 If the input is a file, a single index will be created.
 If the input is a directory, every file will be stored in the index database as a table.
 
