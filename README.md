@@ -38,3 +38,21 @@ kew.py store <input> [options]
 # -v       Suppress display output.
 # -hidden  Enable silent mode.
 ```
+
+### Manual input file check
+Function: `bindings`
+
+Check input file or directory integrity. Without optional arguments, it will check the coherence between arrtibute fields and data (bindings).
+An incorrect number of bindings is ofted due to spaces or special characters either within attribute names or data.
+
+```
+# NORMAL USAGE:
+kew.py bindings <input_TXT> [-collision <2nd_input_TXT>] [-t]
+
+# FIELD NAME COLLISION CHECK:
+kew.py bindings <input_TXT> -self
+```
+
+Option `-collision` enables attribute name collision check with a second text file.
+Option `-t` is used to skip the first line of the file(s).
+Option `-self` is used to enable attribute name collision check within the same file.
