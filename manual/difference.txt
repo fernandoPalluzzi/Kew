@@ -1,0 +1,16 @@
+# FUNCTION: difference
+
+# DESCRIPTION
+Find all values for the selected attributes from table1 and table2 for 
+which field1 (from table1) has no values in common with field2 (from table2).
+
+# USAGE
+kew.py difference <input.idb> -t1 <table1> -t2 <table2> -w <field1, field2> -a <attributes> [-v]
+
+# ARGUMENTS
+# -t1    Input table 1.
+# -t2    Input table 2.
+# -w     Field pair used for the comparison (-w "attribute1, attribute2").
+# -a     Selected attributes.
+# -time  Show elapsed time.
+# -v     Suppress display output.

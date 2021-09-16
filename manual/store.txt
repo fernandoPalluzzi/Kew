@@ -1,0 +1,20 @@
+# FUNCTION: store
+
+# DESCRIPTION
+Store tab-separated (or blank-separated) txt files into an SQLite database.
+If the input is a file path, a single index will be created.
+If the input is a directory path, every included file will be stored in 
+the index database as a table.
+
+# USAGE
+kew.py store <input> [options]
+
+# ARGUMENTS
+# -n       A database name. If None (default), the input file name with .idb extension will be used.
+# -t       Table name. If "auto" (default), the input file basename without extension will be used.
+# -b       Blob type will be used as attribute type for every attribute.
+# -c       Perform a data check.
+# -C       Perform an interactive data check.
+# -rm      Filter out binding errors from the input file(s).
+# -v       Suppress display output.
+# -hidden  Enable silent mode.
