@@ -82,8 +82,10 @@ kew.py fetch <input_idb> -t <table> [-s <attributes>] [-c <condition>] [-i <ID_a
 #        Every output file of the recursive query will have .map extension.
 # -ord   Comma + space-separated table attributes to order by (-ord "attr1, attr2, ..., attrN").
 #        This will sort data according to the specified attributes, in ascending order.
-#        For descending order, write DESC after the parameter argument (-ord "attr1, attr2, ..., attrN DESC").
-# -o     Output path. If None, the output will be set automatically to basename(<index_db>)_fetched.txt
+#        For descending order, write DESC after the parameter argument
+#        (-ord "attr1, attr2, ..., attrN DESC").
+# -o     Output path. If None, the output will be set automatically to 
+#        basename(<index_db>)_fetched.txt
 # -e     Exclude IDs in -i. Use with -i only.
 # -f     Disable warnings (for automatic usage).
 #        Use this option if the input is a tab-separated txt file, instead of an SQlite index.
@@ -108,7 +110,8 @@ kew.py join -d <index_database> -t1 <table_1> -t2 <table_2> [-a1] [-a2] [-s <att
 # -j     Join type among "left", "inner", or "natural".
 # -ord   Comma + space-separated table attributes to order by (-ord "attr1, attr2, ..., attrN").
 #        This will sort data according to the specified attributes, in ascending order.
-#        For descending order, write DESC after the parameter argument (-ord "attr1, attr2, ..., attrN DESC").
+#        For descending order, write DESC after the parameter argument
+#        (-ord "attr1, attr2, ..., attrN DESC").
 # -o     Output path. If None, the output will be set automatically to basename(<index_db>)_fetched.txt
 # -v     Suppress display output.
 # -time  Show elapsed time.
@@ -126,7 +129,8 @@ kew.py collide -t1 <table_1> -t2 <table_2> [-a1] [-a2] [-a] [-s <attributes>] [o
 # -t2    Input file 2.
 # -a1    Join attribute from file 1. Not needed if -a is used or -j is set to "natural" (see below).
 # -a2    Join attribute from file 2. Not needed if -a is used or -j is set to "natural" (see below).
-# -a     If the joining attributes from both tables have the same name, the user may indicate them at once with -a.
+# -a     If the joining attributes from both tables have the same name, the user may indicate them 
+#        at once with -a.
 # -s     Attributes to be selected (-s "attr1, attr2, ..., attrN").
 #        The user can specify "_t1" for the entire attribute set of file_1, and "_t2" for the entire 
 #        attribute set of file_2 (e.g., -s "_t1, file2_attr1, file2_attr2, ...",
@@ -136,7 +140,8 @@ kew.py collide -t1 <table_1> -t2 <table_2> [-a1] [-a2] [-a] [-s <attributes>] [o
 # -j     Join type among "left", "inner", or "natural".
 # -ord   Comma + space-separated table attributes to order by (-ord "attr1, attr2, ..., attrN").
 #        This will sort data according to the specified attributes, in ascending order.
-#        For descending order, write DESC after the parameter argument (-ord "attr1, attr2, ..., attrN DESC").
+#        For descending order, write DESC after the parameter argument
+#        (-ord "attr1, attr2, ..., attrN DESC").
 # -o     Output path. If None, the output will be set automatically to basename(<index_db>)_fetched.txt
 # -rm    Remove the intermediate index database.
 # -v     Suppress display output.
@@ -158,7 +163,8 @@ kew.py rmdup <input.idb> -t <table> -s <groupby> [options]
 # -t        Table to be cleaned. If the input is a file, -t is not required.
 # -s        Attribute(s) to be considered as a unique key.
 #           Only the first among a group of tuples with the same key is retained.
-# -b        Use this option if you want a backup copy (.bkp) of the input file (not an SQLite index database).
+# -b        Use this option if you want a backup copy (.bkp) of the input file
+#           (not an SQLite index database).
 # -f        Use this option if the input is a file (not an SQLite index database).
 #           Differently from -b, the output will replace the input file.
 # -bed      Use this option if the input is a BED file (not a .idb file) and you want a sorted 
@@ -194,9 +200,11 @@ kew.py rmdup <input.idb> -t <table> -s <groupby> [options]
 #                                V    natural sort of version numbers within text
 # -ord      Comma + space-separated table attributes to order by (-ord "attr1, attr2, ..., attrN").
 #           This will sort data according to the specified attributes, in ascending order.
-#           For descending order, write DESC after the parameter argument (-ord "attr1, attr2, ..., attrN DESC").
+#           For descending order, write DESC after the parameter argument
+#           (-ord "attr1, attr2, ..., attrN DESC").
 # -hdr      Header to be added to the input file.
-#           Header format must be a comma + space separated list of attribute names (<attr1, attr2, ...>).
+#           Header format must be a comma + space separated list of attribute names
+#           (<attr1, attr2, ...>).
 #           Use this option if -b or -f are enabled and the input file has no header.
 # -markdup  Duplicate entries in the i-th field are marked instad of removed.
 #           A "duplicates" field will be added to the output file. 
