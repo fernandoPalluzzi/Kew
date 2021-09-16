@@ -3,7 +3,7 @@
 
 ## Installation
 
-Clone the Kew repository within the home directory and modify the .bashrc file by adding Kew within the PYTHONPATH variable:
+Clone the Kew repository within the home directory and modify the .bashrc file by adding Kew within the PYTHONPATH variable (add these lines to the .bashrc file if you do not have them):
 
 ```
 # Extended PATH variables set
