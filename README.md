@@ -67,10 +67,10 @@ Build a query and fetch data in a tab-separated text file. The input can be eith
 
 ```
 # USAGE WITH TEXT FILE
-kew.py fetch <input> -f [-s <attributes>] [-c <condition>] [-i <ID_attribute>:<ID_list_file>] [options]
+kew.py fetch <input> -f [-s <attributes>] [-c <condition>] [options]
 
 # USAGE WITH SQLite INDEX
-kew.py fetch <input_idb> -t <table> [-s <attributes>] [-c <condition>] [-i <ID_attribute>:<ID_list_file>] [options]
+kew.py fetch <input_idb> -t <table> [-s <attributes>] [-c <condition>] [options]
 
 # ARGUMENTS
 # -t     Database table to be queried.
