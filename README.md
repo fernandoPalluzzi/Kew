@@ -112,7 +112,8 @@ kew.py join -d <index_database> -t1 <table_1> -t2 <table_2> [-a1] [-a2] [-s <att
 #        This will sort data according to the specified attributes, in ascending order.
 #        For descending order, write DESC after the parameter argument
 #        (-ord "attr1, attr2, ..., attrN DESC").
-# -o     Output path. If None, the output will be set automatically to basename(<index_db>)_fetched.txt
+# -o     Output path. If None, the output will be set automatically to
+#        basename(<index_db>)_fetched.txt
 # -v     Suppress display output.
 # -time  Show elapsed time.
 ```
@@ -142,7 +143,8 @@ kew.py collide -t1 <table_1> -t2 <table_2> [-a1] [-a2] [-a] [-s <attributes>] [o
 #        This will sort data according to the specified attributes, in ascending order.
 #        For descending order, write DESC after the parameter argument
 #        (-ord "attr1, attr2, ..., attrN DESC").
-# -o     Output path. If None, the output will be set automatically to basename(<index_db>)_fetched.txt
+# -o     Output path. If None, the output will be set automatically to
+#        basename(<index_db>)_fetched.txt
 # -rm    Remove the intermediate index database.
 # -v     Suppress display output.
 # -time  Show elapsed time.
