@@ -7,13 +7,13 @@ Clone the Kew repository within the home directory and modify the .bashrc file b
 
 ```
 # Extended PATH variables set
-export PATH=$PATH:~/Kew
+export PATH=$PATH:~/KewTools
 ```
 
 Be sure to have execution rights for the Kew directory. If not, you may change them with:
 
 ```
-chmod 700 ~/Kew/*
+chmod 700 ~/KewTools/*
 ```
 
 Open a terminal and launch `kew.py` to view the current version.
