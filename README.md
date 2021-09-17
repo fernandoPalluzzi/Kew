@@ -24,7 +24,7 @@ Use `kew.py <FUNCTION> -h` to get help.
 
 The list of available functions (see below) can be displayed simply with `kew.py`.
 
-### Create an SQLite index
+### Create an SQLite database
 Function: `store`
 
 Store tab-separated (or blank-separated) txt files into an SQLite database.
