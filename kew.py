@@ -28,7 +28,7 @@ if len(sys.argv) == 1 or sys.argv[1] == "version":
 elif sys.argv[2] == "-h":
 	call('clear', shell = True)
 	print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-	call('cat ~/Kew/manual/' + sys.argv[1] + '.txt', shell = True)
+	call('cat ~/KewTools/manual/' + sys.argv[1] + '.txt', shell = True)
 	print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 
 
