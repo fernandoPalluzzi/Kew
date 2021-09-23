@@ -67,7 +67,7 @@ kew.py bindings <input_TXT> -self
 ### Fetch data in a text file
 Function: `fetch`
 
-Build a query and fetch data in a tab-separated text file. The input can be either a text file or an SQLite index.
+Build a query and fetch data in a tab-separated text file. The input can be either a text file or an SQLite database.
 
 ```
 # USAGE WITH TEXT FILE
@@ -92,7 +92,7 @@ kew.py fetch <input_idb> -t <table> [-s <attributes>] [-c <condition>] [options]
 #        basename(<index_db>)_fetched.txt
 # -e     Exclude IDs in -i. Use with -i only.
 # -f     Disable warnings (for automatic usage).
-#        Use this option if the input is a tab-separated txt file, instead of an SQlite index.
+#        Use this option if the input is a tab-separated txt file, instead of an SQlite database.
 # -time  Show elapsed time.
 # -v     Suppress display output.
 ```
