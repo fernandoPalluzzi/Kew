@@ -73,7 +73,7 @@ Build a query and fetch data in a tab-separated text file. The input can be eith
 # USAGE WITH TEXT FILE
 kew.py fetch <input> -f [-s <attributes>] [-c <condition>] [options]
 
-# USAGE WITH SQLite INDEX
+# USAGE WITH SQLite DB
 kew.py fetch <input_idb> -t <table> [-s <attributes>] [-c <condition>] [options]
 
 # ARGUMENTS
