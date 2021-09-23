@@ -3,17 +3,17 @@
 
 ## Installation
 
-Clone the Kew repository within the home directory and modify the .bashrc file by adding Kew within the PATH variable (add these lines to the .bashrc file if you do not have them):
+Clone the Kew repository within your favourite directory and modify the .bashrc file by adding the Kew location within the PATH variable:
 
 ```
 # Extended PATH variables set
-export PATH=$PATH:~/KewTools
+export PATH=$PATH:~/your_favourite_dir/KewTools
 ```
 
 Be sure to have execution rights for the Kew directory. If not, you may change them with:
 
 ```
-chmod 700 ~/KewTools/*
+chmod 700 ~/your_favourite_dir/KewTools/*
 ```
 
 Open a terminal and launch `kew.py` to view the current version.
