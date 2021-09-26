@@ -34,8 +34,9 @@ If the input is a directory path, every included file will be stored in the inde
 ```
 kew.py store <input> [options]
 
-# ARGUMENTS
-# -n       A database name. If None (default), the input file name with .idb extension will be used.
+# OPTIONAL ARGUMENTS
+# -n       A database name. If None (default), the input file or directory name with .idb extension
+#          will be used.
 # -t       Table name. If "auto" (default), the input file basename without extension will be used.
 # -b       Blob type will be used as attribute type for every attribute.
 # -c       Perform a data check.
@@ -58,7 +59,7 @@ kew.py bindings <input_TXT> [-collision <2nd_input_TXT>] [-t]
 # FIELD NAME COLLISION CHECK
 kew.py bindings <input_TXT> -self
 
-# OPTIONS
+# OPTIONAL ARGUMENTS
 # -self       enable attribute name collision check within the same file.
 # -collision  enable attribute name collision check with a second text file.
 # -t          skip the first line of the file(s).
