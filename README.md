@@ -1,5 +1,5 @@
 # Kew
-**Kew** is a simple command line tool for [**SQLite**](https://sqlite.org) database creation and querying.
+**Kew** is a simple command line tool for [**SQLite**](https://sqlite.org) database creation and querying. Large datasets are often stored as big text files or directories containing many big files (e.g., more than 1 or 2GB per file). These files often come as CSV (comma or semicolon separated) format or TAB-separated text. Opening these files in text editors and/or spreadsheets could be unfeasible or impractical for many reasons, including limited resources, huge computational demands, limited number of data entries that can be processed simultaneously, complex operations (such as table joins or complex SQL clauses) that can be done only by SQL experts. **Kew** enables the creation and manipulation of big files and directories, also for non SQL or Python experts, by indexing them with the sqlite3 Python library.
 
 ## Installation
 
