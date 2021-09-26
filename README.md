@@ -136,7 +136,7 @@ kew.py collide -t1 <TXT_file_1> -t2 <TXT_file_2> [-a1] [-a2] [-a] [-s <attribute
 # -a1    Join attribute from file 1. Not needed if -a is used or -j is set to "natural" (see below).
 # -a2    Join attribute from file 2. Not needed if -a is used or -j is set to "natural" (see below).
 # -a     If the joining attributes from both tables have the same name, the user may indicate them 
-#        once with -a.
+#        once with -a "...".
 # -s     Attributes to be selected (-s "attr1, attr2, ..., attrN").
 #        The user can specify "_t1" for the entire attribute set of file_1, and "_t2" for the entire 
 #        attribute set of file_2 (e.g., -s "_t1, file2_attr1, file2_attr2, ...",
