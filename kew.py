@@ -11,7 +11,7 @@ from qber import *
 
 if len(sys.argv) == 1 or sys.argv[1] == "version":
 	call('clear', shell = True)
-	print('\n  ##### The Kew Toolkit v0.1.2b    (c) 2021 Fernando Palluzzi #####\n')
+	print('\n  ##### The Kew Toolkit v0.1.3b    (c) 2021 Fernando Palluzzi #####\n')
 	print('  ## Use "kew.py <FUNCTION> -h" for help ##\n')
 	print('  o~~~~~~~~~~~~~o~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~o')
 	print('  | Function    |  Description                                    |\n' +
@@ -440,7 +440,7 @@ elif sys.argv[1] == "difference":
 
 
 else:
-	print('# Kew Toolkit v0.1.2b')
+	print('# Kew Toolkit v0.1.3b')
 	print('[!] Value Error: ' + sys.argv[1] + ': invalid command')
 	print("# Done.")
 
