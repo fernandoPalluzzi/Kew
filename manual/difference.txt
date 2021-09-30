@@ -1,7 +1,7 @@
 # FUNCTION: difference
 
 # DESCRIPTION
-Find all values for the selected attributes from table1 and table2 for 
+Find all values for the selected attributes from table1 and table2 for
 which field1 (from table1) has no values in common with field2 (from table2).
 
 # USAGE
