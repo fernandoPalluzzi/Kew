@@ -27,7 +27,8 @@ kew.py rmdup <input.idb> -t <table> -s <groupby> [options]
 #           Every output file of the recursive query will have .map extension.
 # -k        Fields used to sort data. By default, the "rmdup" function retains the
 #           first occurrence of a duplicated key. Sorting will decide which line 
-#           will appear first.
+#           will appear first. This option will sort the input file before processing it
+#           (see also -ord option below).
 #           In the sorting argument, each column in the input file is represented 
 #           with an "x" followed by a number, indicating the start and the end position
 #           of the chosen fields. For example, -k "x4,4" sorts the file by column 4 
@@ -53,6 +54,7 @@ kew.py rmdup <input.idb> -t <table> -s <groupby> [options]
 #           This will sort data according to the specified attributes, in ascending order.
 #           For descending order, write DESC after the parameter argument
 #           (-ord "attr1, attr2, ..., attrN DESC").
+#           Differently from -k option (see above), -ord will sort only the output.
 # -hdr      Header to be added to the input file.
 #           Header format must be a comma + space separated list of attribute names
 #           (<attr1, attr2, ...>).
